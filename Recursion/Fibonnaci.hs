@@ -9,3 +9,12 @@ fibonnaci :: Int -> [Int]
 fibonnaci 0 = [0]
 fibonnaci 1 = [0, 1]
 fibonnaci x = fibonnaci' (fibonnaci 1) (x - 1) (1, 0)
+
+fib :: Int -> [Int]
+fib 0 = [0]
+fib 1 = [0, 1]
+fib x =
+  let
+  y = [2]
+  in
+  y 
